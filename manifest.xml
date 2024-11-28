@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xsi:type="TaskPaneApp">
+  
+  <!-- Unique ID for your Add-In -->
+  <Id>com.example.chordsaddin</Id>
+  
+  <!-- Version info for your Add-In -->
+  <Version>1.0.0.0</Version>
+  
+  <!-- Your Provider Info -->
+  <ProviderName>Your Name</ProviderName>
+  
+  <!-- Locale settings -->
+  <DefaultLocale>en-US</DefaultLocale>
+  
+  <!-- Display Name -->
+  <DisplayName DefaultValue="Chords Add-In"/>
+  
+  <!-- Description -->
+  <Description DefaultValue="Easily add chords to song lyrics."/>
+  
+  <!-- Icon and Support URLs (replace with actual URLs) -->
+  <IconUrl DefaultValue="https://placeholder-url.com/icon.png"/>
+  <SupportUrl DefaultValue="https://placeholder-url.com/support"/>
+
+  <!-- Specify the Office Host type -->
+  <Hosts>
+    <Host Name="Document"/>
+  </Hosts>
+
+  <!-- Set your requirements for the add-in -->
+  <Requirements>
+    <Sets DefaultMinVersion="1.1">
+      <Set Name="SharedRuntime" MinVersion="1.1"/>
+    </Sets>
+  </Requirements>
+
+  <!-- Resources Section (replace URLs) -->
+  <Resources>
+    <bt:Images xmlns:bt="http://schemas.microsoft.com/office/2006/01/balloons">
+      <bt:Image Id="icon16x16" DefaultValue="https://placeholder-url.com/icon16x16.png"/>
+      <bt:Image Id="icon32x32" DefaultValue="https://placeholder-url.com/icon32x32.png"/>
+    </bt:Images>
+    <bt:Urls xmlns:bt="http://schemas.microsoft.com/office/2006/01/balloons">
+      <bt:Url Id="TaskPaneUrl" DefaultValue="https://your-hosting-url.com/index.html"/>
+    </bt:Urls>
+  </Resources>
+
+  <!-- Default settings -->
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://your-hosting-url.com/index.html"/>
+  </DefaultSettings>
+
+</OfficeApp>
