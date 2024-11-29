@@ -23,7 +23,8 @@
   
   <!-- Icon and Support URLs (replace with actual URLs) -->
   <IconUrl DefaultValue="https://sholomn.github.io/ChordsShorts/icon.png"/>
-
+  <bt:Image Id="icon16x16" DefaultValue="https://sholomn.github.io/ChordsShorts/icon16x16.png"/>
+  <bt:Image Id="icon32x32" DefaultValue="https://sholomn.github.io/ChordsShorts/icon32x32.png"/>
 
   <!-- Specify the Office Host type -->
   <Hosts>
@@ -39,10 +40,6 @@
 
   <!-- Resources Section (replace URLs) -->
   <Resources>
-    <bt:Images xmlns:bt="http://schemas.microsoft.com/office/2006/01/balloons">
-      <bt:Image Id="icon16x16" DefaultValue="https://placeholder-url.com/icon16x16.png"/>
-      <bt:Image Id="icon32x32" DefaultValue="https://placeholder-url.com/icon32x32.png"/>
-    </bt:Images>
     <bt:Urls xmlns:bt="http://schemas.microsoft.com/office/2006/01/balloons">
       <bt:Url Id="TaskPaneUrl" DefaultValue="https://sholomn.github.io/ChordsShorts/"/>
     </bt:Urls>
