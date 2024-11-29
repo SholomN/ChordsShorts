@@ -22,8 +22,10 @@
   <Description DefaultValue="Easily add chords to song lyrics."/>
   
   <!-- Icon and Support URLs (replace with actual URLs) -->
-  <IconUrl DefaultValue="https://placeholder-url.com/icon.png"/>
-  <SupportUrl DefaultValue="https://placeholder-url.com/support"/>
+  <IconUrl DefaultValue="https://sholomn.github.io/ChordsShorts/icon.png"/>
+<bt:Image Id="icon16x16" DefaultValue="https://sholomn.github.io/ChordsShorts/icon16x16.png"/>
+<bt:Image Id="icon32x32" DefaultValue="https://sholomn.github.io/ChordsShorts/icon32x32.png"/>
+
 
   <!-- Specify the Office Host type -->
   <Hosts>
